@@ -30,7 +30,8 @@ class MultipleRequisition:
 
             # retorna uma lista de JSONS com as respostas disponiveis
             return results
-
+            
+    # função que é chamada no corpo do código
     def make_requisitions(self):
         loop = asyncio.new_event_loop()
         asyncio.set_event_loop(loop)
